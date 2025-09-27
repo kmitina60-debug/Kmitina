@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Убираем стандартные отступы браузера */
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Нежный фон */
+    color: #333; /* Основной цвет текста */
+}
+
+.container {
+    max-width: 800px; /* Ограничиваем ширину контента */
+    margin: 40px auto; /* Центрируем контент и добавляем отступы */
+    padding: 20px;
+    background-color: #fff; /* Белый фон для контента */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+h1, h2, h3 {
+    color: #007bff; /* Цвет заголовков */
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li::before {
+    content: '• ';
+    color: #007bff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+address {
+    font-style: normal; /* Убираем курсив у address */
+}
